@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+  </head>
+  <body>
+    <h1 class="h1">Todo App</h1>
+    <div style="text-align: center;">
+      <input id="inputs" type="text" placeholder="Enter items..">
+      <button class="btn1" onclick="add()">Add items</button>
+      <button class="btn2" onclick="deleteAll()">Delete All items</button>
+    </div>
+    <ul id="ul-list" style="color: white; font-size: 22px;"></ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
